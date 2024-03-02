@@ -381,7 +381,7 @@ h3 {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: transparent;
 }
 
 .footer-text,
@@ -390,7 +390,8 @@ h3 {
 }
 
 .footer-text p {
-    font-size: 1.6rem;
+    font-size: 1rem;
+    align-items: center;
 }
 
 .footer-iconTop a {
@@ -399,11 +400,13 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: .8rem;
-    background: var(--main-color);
-    border: .2rem solid var(--main-color);
+    background: rgb(1, 23, 88);
+    border: .2rem solid blue;
     border-radius: .6rem;
     z-index: 1;
     overflow: hidden;
+    width: 20px;
+    height: 20px;
 }
 
 .footer-iconTop a::before {
@@ -413,7 +416,7 @@ h3 {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--second-bg-color);
+    background: #011742;
     z-index: -1;
     transition: .5s;
 }
@@ -423,11 +426,11 @@ h3 {
 }
 
 
-.footer-iconTop a ion-icon {
+.footer-iconTop a i {
     font-size: 2.4rem;
-    color: var(--bg-color);
+    color: black;
 }
 
-.footer-iconTop a:hover ion-icon {
-    color: var(--main-color);
+.footer-iconTop a:hover i {
+    color: rgb(1, 1, 20);
 }
