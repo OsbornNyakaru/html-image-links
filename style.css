@@ -40,9 +40,8 @@ header {
 }
 
 .logo img {
-    width: 40px;
-    color: black;
-    background-color: grey;
+    background: transparent;
+    width: 50px;
     border-radius: 4px;
 }
 .navbar {
